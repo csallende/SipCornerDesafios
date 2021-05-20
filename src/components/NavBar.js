@@ -1,10 +1,11 @@
-import icono from './components/CartWidget.js'
+import CartWidget from './components/CartWidget.js'
 import ItemListContainer from './components/ItemListContainer.js'
 
 function NavBar () {
     return (
       <div className="App">
-            <icono/>
+            <h2>The Sip Corner</h2>
+            <CartWidget/>
             <div class="collapse navbar-collapse" id="ftco-nav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>

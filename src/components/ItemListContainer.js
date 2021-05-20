@@ -1,7 +1,9 @@
 function ItemListContainer () {
     return (
         <div className="App">
-            <Bienvenido style="background-color: red">
+            <Bienvenido style="background-color: red" />
         </div>
     )
 }
+
+export default ItemListContainer;
